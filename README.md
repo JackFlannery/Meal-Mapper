@@ -18,3 +18,7 @@ The Google Maps API component is initially zoomed out to show the continental Un
 Users have three different options for sorting these results- best match, rating and distance. These sorts are done within the Yelp API during the axios get method in the RestData class React Component. The user may choose between them by selecting them from the dropdown menu titled "Sort Results By" after they make their request.
 
 Once the results have actually loaded below the map, users will be able to see an image, name, address, rating, and link to Yelp page for each of the 20 loaded locations. The rating is accompanied by a Font Awesome API star icon. These locations are not loaded onto the page until the user submits a request, before this they are hidden completely. 
+
+# For Fun
+
+At the top of the page is the mascot for Meal Mapper, a piece of broccoli with a magnifying glass that helps people find the quality food they are hungry for. It's name is Brock Lee, and I wanted to mention this in case anyone was curios as to what it's name was. I also had fun working on the magnifying class to fork animation in the search bar, as that idea allowed me to expand my CSS knowledge into animations.
