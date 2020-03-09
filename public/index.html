@@ -1,15 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="height:auto; left:0; right:0;">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
-      name="description"
-      content="Web site created using create-react-app"
+      name="Meal Mapper"
+      content="A restaraunt recommendation site for your best local eateries!"
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -24,20 +23,74 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Meal Mapper</title>
+    <link href="indexHTML.css" rel="stylesheet" type="text/css">
   </head>
-  <body>
+
+  <!--Wrapper to enclose the entire contents of the document.-->
+  <div id="wrapper">
+
+  <body style="height:auto; left:0; right:0;">
+
     <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <!--The title of the website at the top of the page with the website's mascot, Brock Lee, a piece of broccoli.-->
+    <h1 class="title"><img id="brockLee" src="./brock lee no back.png"/>Meal Mapper</h1>
+
+    <!--The subtitle of the website, so you know who made it.-->
+    <h2 class="subtitle">A Jack Flannery Web App</h2>
+
+    <p class="warning">Please enable location services in your browser before using the application.</p>
+    
+    <!--The div that holds the text entry field.-->
+    <div class="form">
+
+      <!--The form for the text entry field.-->
+      <form style="height: 96px;">
+
+        <!--Container for the individual text entry box and submit button.-->
+        <div class="formCont" style="margin-left:0cm;">
+
+          <!--The text entry field.-->
+          <div class="formElement"><input class="userInput" id="userInput" type="text" placeholder="Hungry?"></input></div>
+
+          <!--The submit button.-->
+          <div class="formElement" id="submitCover"><button class="submit" id="submit" type="submit" value="Submit"><div class="submitCircle"></div>
+
+            <!--Extra lines to form the fork animation as part of the submit button.-->
+          <span id="spanOne"></span> <span id="spanTwo"></span></button></div>
+        </div>
+      </form>
+    </div>
+
+    <!--A hidden HTML element that stores the user's latitude and longitude. The text attribute is fetched from these elements in my javascript.-->
+      <div hidden>
+        <p id="userLat"></p>
+        <p id="userLong"></p>
+      </div>
+
+      <!--This div stores the code for the dropdown menu that selects how the user would like their results to be sorted.-->
+      <div class="navbar">
+      <div class="dropdown">
+
+        <!--The button that serves as the header for the dropdown selection menu, which includes a tiny white arrow pointing down.-->
+        <button class="dropbtn">Sort Results By &#9662
+        </button>
+
+        <!--The dropdown content consists of three different choices which users may sort their data.-->
+        <div class="dropdown-content">
+          <button id="bestMatch">Best Match</button>
+          <button id="rating" type="submit">Rating</button>
+          <button id="distance">Distance</button>
+        </div>
+      </div>
+    </div>
+
+    <!--All HTML rendered in React components will be placed within the "root" div-->
+    
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+  
+  </div>
+    
   </body>
 </html>

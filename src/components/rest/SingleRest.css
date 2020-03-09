@@ -1,0 +1,39 @@
+/* These are the styles for the image for each business. */
+
+.restPic {
+    height: 22vh;
+    width: 15vw;
+    max-width: 100%;
+}
+
+/* These are the styles for the container for the business information. */
+
+.restContainer {
+    
+    width:20vw;
+    float:right;
+    height:28vh;
+}
+
+/* These are the styles for the container for the image for each business. */
+
+.picContainer {
+    /* float:left;  */
+    margin-left: -10vw;
+    width:28vw; 
+    height:28vh; 
+   
+}
+
+/* These are the styles for each piece of text displayed as part of the business information.*/
+
+#price #name #loc #rat {
+    font-family: Roboto;
+    color: #091625;
+}
+
+/* This specific style prevents certain errors from occuring when the console is pulled up in broswer */
+
+.locInfo {
+    font-size: 2vh;
+}

@@ -1,0 +1,29 @@
+.data {
+    margin-top: 2cm;
+}
+
+.marker {
+    background-image: url('./mapbox-icon.png');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.map {
+    width: 25cm;
+    height: 10cm;
+    margin-left: 15vw;
+    margin-top: 2vh;
+    /* border-style: solid;
+    border-width: 5px;
+    border-color: #091625;; */
+}
+
+.data {
+    width: 50%;
+    margin-left: 11cm;
+}
+
+
