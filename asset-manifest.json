@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Meal-Mapper/static/css/main.74eb9d1a.chunk.css",
+    "main.js": "/Meal-Mapper/static/js/main.75c87f1e.chunk.js",
+    "main.js.map": "/Meal-Mapper/static/js/main.75c87f1e.chunk.js.map",
+    "runtime-main.js": "/Meal-Mapper/static/js/runtime-main.11e68a31.js",
+    "runtime-main.js.map": "/Meal-Mapper/static/js/runtime-main.11e68a31.js.map",
+    "static/js/2.f9c7ca5b.chunk.js": "/Meal-Mapper/static/js/2.f9c7ca5b.chunk.js",
+    "static/js/2.f9c7ca5b.chunk.js.map": "/Meal-Mapper/static/js/2.f9c7ca5b.chunk.js.map",
+    "index.html": "/Meal-Mapper/index.html",
+    "precache-manifest.7d3b9dac47f532dde69c45c526c884a6.js": "/Meal-Mapper/precache-manifest.7d3b9dac47f532dde69c45c526c884a6.js",
+    "service-worker.js": "/Meal-Mapper/service-worker.js",
+    "static/css/main.74eb9d1a.chunk.css.map": "/Meal-Mapper/static/css/main.74eb9d1a.chunk.css.map",
+    "static/js/2.f9c7ca5b.chunk.js.LICENSE.txt": "/Meal-Mapper/static/js/2.f9c7ca5b.chunk.js.LICENSE.txt",
+    "static/media/RestData.css": "/Meal-Mapper/static/media/mapbox-icon.12afd979.png",
+    "static/media/star.png": "/Meal-Mapper/static/media/star.b90c8463.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.11e68a31.js",
+    "static/js/2.f9c7ca5b.chunk.js",
+    "static/css/main.74eb9d1a.chunk.css",
+    "static/js/main.75c87f1e.chunk.js"
+  ]
+}
